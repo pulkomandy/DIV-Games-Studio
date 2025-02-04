@@ -496,8 +496,10 @@ int main(int argc, char * argv[]) {
 	tipo[15].ext="*.WLD *.*"; // 3D Map files
 	tipo[16].ext="*.* *.MOD *.S3M *.XM *.MID"; // Tracker modules
 
-	for (n=0;n<24;n++) 
-		tipo[n].defecto=0; tipo[n].inicial=0; 
+	for (n=0;n<24;n++) {
+		tipo[n].defecto=0;
+		tipo[n].inicial=0;
+	}
 
 	inicializa_textos((uint8_t *)"system/lenguaje.div"); // OJO emitir un error si lenguaje.div no existe
 
