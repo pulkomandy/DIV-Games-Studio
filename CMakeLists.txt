@@ -1,6 +1,6 @@
 # CMAKE lists file for DIV GAMES STUDIO
 # (c) 2015 Mike Green  
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8...3.5)
 PROJECT(div2015)
 
 # setup some defaults
